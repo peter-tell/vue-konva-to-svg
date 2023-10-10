@@ -1,51 +1,43 @@
 {
-  "name": "react-konva-to-svg",
-  "version": "1.0.2",
+  "name": "vue-konva-to-svg",
+  "version": "1.0.0",
   "private": false,
   "keywords": [
-    "react-konva",
-    "react-konva-components",
-    "react-konva-utils",
-    "react-konva-export",
+    "vue-konva",
+    "vue-konva-components",
+    "vue-konva-utils",
+    "vue-konva-export",
     "canvas-api",
     "svg-canvas",
-    "react-konva-to-svg",
+    "vue-konva-to-svg",
     "canvas",
     "svg",
     "konva"
   ],
   "description": "Extend Konva's functionality to export stages as SVG. Enhance the quality of exported images with SVG format.",
-  "author": "dendrofen",
+  "author": "Peter Tell",
   "license": "MIT",
-  "main": "react-konva-to-svg/index.js",
+  "main": "vue-konva-to-svg/index.js",
   "files": [
-    "react-konva-to-svg"
+    "vue-konva-to-svg"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dendrofen/react-konva-to-svg.git"
+    "url": "git+https://github.com/peter-tell/vue-konva-to-svg.git"
   },
-  "homepage": "https://dendrofen.github.io/react-konva-to-svg/",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "vite",
+    "build": "vite build"
   },
+  "homepage": "https://github.com/peter-tell/vue-konva-to-svg/",
   "dependencies": {
-    "react": "^18.2.0",
-    "konva": "^9.2.0",
-    "react-konva": "^18.2.10",
-    "svgcanvas": "^2.5.0"
+    "konva": "^9.2.2",
+    "svgcanvas": "^2.5.0",
+    "vue": "^3.2.36",
+    "vue-konva": "^3.0.2"
   },
   "devDependencies": {
-    "eslint": "8.46.0",
-    "eslint-config-next": "13.4.13",
-    "konva": "^9.2.0",
-    "next": "13.4.13",
-    "react": "^18.2.0",
-    "react-dom": "18.2.0",
-    "react-konva": "^18.2.10",
-    "svgcanvas": "^2.5.0"
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vite": "^4.4.11"
   }
 }

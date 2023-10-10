@@ -1,11 +1,11 @@
-# react-konva-to-svg
+# vue-konva-to-svg
 
-**Extend Konva's functionality to export stages as SVG. Enhance the quality of exported images with SVG format.**
+**Extend Konva's functionality to export stages as SVG. Enhance the quality of exported images with SVG format. This is a forked project from https://github.com/dendrofen/react-konva-to-svg wrapping the functionality for Vue**
 
-[![GitHub License](https://img.shields.io/github/license/dendrofen/react-konva-to-svg)](LICENSE)
-[![Build Size](https://img.shields.io/bundlephobia/minzip/react-konva-to-svg?label=bundle%20size&style=flat&colorA=000000&colorB=000000)](https://bundlephobia.com/result?p=react-konva-to-svg)
-[![Version](https://img.shields.io/npm/v/react-konva-to-svg?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/react-konva-to-svg)
-[![Downloads](https://img.shields.io/npm/dt/react-konva-to-svg.svg?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/react-konva-to-svg)
+[![GitHub License](https://img.shields.io/github/license/peter-tell/vue-konva-to-svg)](LICENSE)
+[![Build Size](https://img.shields.io/bundlephobia/minzip/vue-konva-to-svg?label=bundle%20size&style=flat&colorA=000000&colorB=000000)](https://bundlephobia.com/result?p=vue-konva-to-svg)
+[![Version](https://img.shields.io/npm/v/vue-konva-to-svg?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/vue-konva-to-svg)
+[![Downloads](https://img.shields.io/npm/dt/vue-konva-to-svg.svg?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/vue-konva-to-svg)
 
 ## Features
 
@@ -26,15 +26,15 @@
 
 ## Installation
 
-You can install `react-konva-to-svg` using npm, yarn, or directly from GitHub.
+You can install `vue-konva-to-svg` using npm, yarn, or directly from GitHub.
 
-- **npm**: `npm install react-konva-to-svg`
-- **yarn**: `yarn add react-konva-to-svg`
-- **GitHub**: [GitHub Repository](https://github.com/dendrofen/react-konva-to-svg)
+- **npm**: `npm install vue-konva-to-svg`
+- **yarn**: `yarn add vue-konva-to-svg`
+- **GitHub**: [GitHub Repository](https://github.com/peter-tell/vue-konva-to-svg)
 
 ## Usage
 
-To use `react-konva-to-svg`, import the library and utilize the `exportStageSVG` function with your Konva stage object. This function allows you to customize the export process.
+To use `vue-konva-to-svg`, import the library and utilize the `exportStageSVG` function with your Konva stage object. This function allows you to customize the export process.
 
 ### `exportStageSVG(stage, blob, options)`
 
@@ -47,7 +47,7 @@ To use `react-konva-to-svg`, import the library and utilize the `exportStageSVG`
 **Example usage:**
 
 ```javascript
-import { exportStageSVG } from 'react-konva-to-svg';
+import { exportStageSVG } from 'vue-konva-to-svg';
 
 // Example usage
 const stage = /* your Konva stage */;
@@ -60,7 +60,3 @@ const result = await exportStageSVG(stage, false, {
   },
 });
 ```
-
-## Demo
-
-Explore a live demo of react-konva-to-svg in action: [Demo](https://dendrofen.github.io/react-konva-to-svg/)
