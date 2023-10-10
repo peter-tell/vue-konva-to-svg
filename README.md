@@ -47,12 +47,10 @@ To use `vue-konva-to-svg`, import the library and utilize the `exportStageSVG` f
 **Example usage:**
 
 ```javascript
-import { exportStageSVG } from 'vue-konva-to-svg';
-
 // Example usage
 <script setup>
 import { ref } from 'vue';
-import { exportStageSVG } from '../../vue-konva-to-svg';
+import { exportStageSVG } from 'vue-konva-to-svg';
 
 const stage = ref(null);
 const svgOutput = ref(null);
@@ -95,6 +93,8 @@ const createSVG = () => {
 };
 
 </script>
+```
+```html
 <style>
     .konvajs-content {
         border: 1px solid black;
